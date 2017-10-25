@@ -8,7 +8,7 @@
 	<title>Using the ArcGIS API for Python in Cambridge</title>
 
 	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/solarized.css">
+	<link rel="stylesheet" href="css/theme/simple.css">
 
 	<!-- Theme used for syntax highlighting of code -->
 	<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -21,6 +21,8 @@
 		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
 		document.getElementsByTagName('head')[0].appendChild(link);
 	</script>
+
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <body>
@@ -30,12 +32,12 @@
 				<h2>
 					<p>Using the ArcGIS API for Python in Cambridge</p>
 				</h2>
-				<h4>
-					<p>Sean Sweeney, GIS Programmer Analyst</p>
-					<p>City of Cambridge, MA</p>
-				</h4>
-				<p>NEARC - Newport, RI</p>
-				<p>November 6, 2017</p>
+				<p>Sean Sweeney, GIS Programmer Analyst</p>
+				<p>City of Cambridge, MA</p>
+				<small>
+					<p>NEARC - Newport, RI</p>
+					<p>November 6, 2017</p>
+				</small>
 				<aside class="notes">
 					<p>The new ArcGIS API for Python has greatly simplified automation with ArcGIS Online and Portal for ArcGIS. It abstracts
 						away most of the gory low-level details that used to be required to interact with the ArcGIS REST API. Get a brief
@@ -44,7 +46,36 @@
 					</p>
 				</aside>
 			</section>
-			<section>Slide 2</section>
+			<section>
+				<a href=https://nearcfall2017.sched.com/event/BzqQ/esri-technical-session-webgis-administration-with-the-python-api>
+					<p>Esri Technical Session:</p>
+					<p>WebGIS Administration with the
+						<b>Python API</b>
+					</p>
+				</a>
+				<p style="color: #B75226;">Jeff Bigos</p>
+				<small>
+					<p>Wednesday November 8, 2017 9:45am - 10:15am</p>
+					<p>Ballroom Salon I (3rd Level)</p>
+				</small>
+				<aside class="notes">
+					<p>ABSTRACT: The ArcGIS API for Python is a Python library for working with maps and geospatial data, powered by web GIS.
+						It provides simple and efficient tools for sophisticated vector and raster analysis, geocoding, map making, routing
+						and directions, as well as for organizing and managing a GIS with users, groups and information items. Get a quick
+						introduction to this powerful API in this session.
+					</p>
+				</aside>
+			</section>
+			<section>
+				What is the Python API?
+				<aside class="notes">
+					<ul>
+						<li>Like ArcPy but for AGOL (or Enterprise)</li>
+						<li>Wrapper around AGOL REST API</li>
+						<li>Manage users, groups, and conent</li>					
+					</ul>
+				</aside>
+			</section>
 		</div>
 	</div>
 
@@ -52,18 +83,18 @@
 	<script src="js/reveal.js"></script>
 
 	<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				showNotes: false,
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
-				]
-			});
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			showNotes: false,
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+			]
+		});
 	</script>
 </body>
 
