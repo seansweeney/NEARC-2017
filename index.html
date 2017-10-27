@@ -68,7 +68,8 @@
 			</section>
 			<section>
 				<h3>What is the Python API?</h3>
-				<img src='images/guide_api_overview_01.png' alt='Python API' style="border:none;height:550px;" />
+				<small><blockquote>"Python API for your Web GIS." - Rohit Singh</blockquote></small>
+				<img src='images/guide_api_overview_01.png' alt='Python API' style="border:none;height:500px;" />
 				<aside class="notes">
 					<ul>
 						<li>Like ArcPy but for AGOL (or Enterprise)</li>
@@ -84,14 +85,75 @@
 				</aside>
 			</section>
 			<section>
+				<h3>What isn't the Python API?</h3>
+				<img src='images/guide_api_overview_01.png' alt='ArcGIS API for Python' style="border:none;height:300px" />
+				<img src='images/arcpy.png' alt='ArcPy' style="border:none;height:300px" />
+				<aside class="notes">
+					<p>The ArcGIS API for Python is not a replacement for ArcPy.  The former is for Web GIS and the latter is for Destop.</p>
+					<p>See the following links for more details:</p>
+					<ul>
+						<li><a href='http://communityhub.esriuk.com/geoxchange/2017/8/10/why-you-need-the-arcgis-api-for-python-in-your-life' target='_blank'>Why you need the ArcGIS API for Python in your life...</a></li>
+						<li><a href='https://geonet.esri.com/thread/187844-arcpy-api-vs-arcgis-python-api-eventual-deprecation-of-arcpy' target="_blank">Arcpy API vs ArcGIS Python API - eventual deprecation of arcpy?</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section>
+				<h3>History</h3>
+					<section>
+						<img src='images/agsextras.py.png' alt='agsextras.py' style="border:none;height:550px;" />
+						<aside class="notes">
+							<p>
+								<a href="http://goo.gl/0AQa9" target="_blank">2013 Spring NEARC - Managing ArcGIS Server 10.1 with Python</a>
+							</p>
+							<p>
+								<a href="https://github.com/cambridgegis/ags-tools/blob/master/lib/agsextras.py" target="_blank">agsextras.py</a>
+							</p>
+							In 2013 I wrote my own REST API wrappers to use with ArcGIS Server. I later used these for ArcGIS Online as well. It took
+							over 100 lines of Python code to build the most basic wrapper.
+						</aside>
+					</section>
+					<section>
+						<table style="border:none">
+							<tr>
+								<td>
+									<a href='https://github.com/Esri/portalpy' target='_blank'>Portalpy</a>
+									<img src='images/portalpy_features.png' alt='Portalpy Features' style="border:none" />
+								</td>
+								<td>
+										<a href='https://github.com/Esri/ArcREST' target='_blank'>ArcREST</a>
+										<img src='images/arcrest_features.png' alt='ArcREST Features' style="border:none" />
+									</td>
+								</tr>
+						</table>
+						<aside class='notes'>
+							<p>Esri had two separate and slightly different open source efforts to try to abstract the REST API for AGOL and Portal.</p>
+							<p>From <a href='https://blogs.esri.com/esri/supportcenter/2017/06/27/release-of-the-deprecated-features-plan-for-arcgis-10-5-1/' target='_blank'>Release of the Deprecated Features Plan for ArcGIS 10.5.1</a>
+							<blockquote>ArcGIS Enterprise 10.5.1 will stop bundling the portalpy module in favor of the ArcGIS API for Python. No further development
+								is planned for this module.</blockquote></p>
+						</aside>
+					</section>
+					<section>
+
+						<aside class='notes'>
+							Still I was unable to figure out how to upload thumbnails.
+						</aside>							
+					</section>
+			</section>
+			<section>
 				<img src='images/gis_module.png' alt='GIS Module' style="border:none" />
 				<aside class="notes">
+					Today I'll be focussing on the GIS Module, which contains five main classes:
 					<ul>
-						<li>GIS : represents the GIS, either ArcGIS Online or an ArcGIS Portal</li>
-						<li>User : represents a GIS user</li>
-						<li>Role : represents the role of a GIS user</li>
-						<li>Group : represents a group in the GIS</li>
-						<li>Item : represents an Item in the GIS</li>
+						<li>
+							<a href='https://developers.arcgis.com/python/guide/using-the-gis/' target='_blank'>GIS</a> : represents the GIS, either ArcGIS Online or an ArcGIS Portal</li>
+						<li>
+							<a href='https://developers.arcgis.com/python/guide/accessing-and-managing-users/' target='_blank'>User</a> : represents a GIS user</li>
+						<li>
+							<a href='https://developers.arcgis.com/python/guide/accessing-and-managing-users#about-user-roles' target='_blank'>Role</a> : represents the role of a GIS user</li>
+						<li>
+							<a href='https://developers.arcgis.com/python/guide/accessing-and-managing-groups/' target='_blank'>Group</a> : represents a group in the GIS</li>
+						<li>
+							<a href='https://developers.arcgis.com/python/guide/accessing-and-creating-content/' target='_blank'>Item</a> : represents an Item in the GIS</li>
 					</ul>
 				</aside>
 			</section>
@@ -108,6 +170,7 @@
 		Reveal.initialize({
 			showNotes: false,
 			transition: 'none',
+			history: 'true',
 			dependencies: [
 				{ src: 'plugin/markdown/marked.js' },
 				{ src: 'plugin/markdown/markdown.js' },
