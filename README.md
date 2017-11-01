@@ -10,3 +10,6 @@
 
 * [Slides](http://seansweeney.github.io/NEARC-2017/) - If you type the S key while viewing the slides, you should get a second window that includes my notes.
 * [ArcGIS API for Python](https://developers.arcgis.com/python/)
+
+## Useful ArcGIS Online REST API Item Parameters
+![Item Parameters](https://github.com/seansweeney/NEARC-2017/blob/master/useful_agol_rest_api_item_parameters.png)
