@@ -12,4 +12,4 @@
 * [ArcGIS API for Python](https://developers.arcgis.com/python/)
 
 ## Useful ArcGIS Online REST API Item Parameters
-![Item Parameters](https://github.com/seansweeney/NEARC-2017/blob/master/useful_agol_rest_api_item_parameters.png)
+![Item Parameters](https://raw.githubusercontent.com/seansweeney/NEARC-2017/master/useful_agol_rest_api_item_parameters.png)
