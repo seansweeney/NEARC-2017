@@ -12,5 +12,12 @@
 * [Slides with notes](http://seansweeney.github.io/NEARC-2017/?showNotes=true)
 * [ArcGIS API for Python](https://developers.arcgis.com/python/)
 
+## Files ##
+The following files from the presentation demos are available in this repo.  Note that the *update* method inputs are hard coded in this demo for brevity and clarity.  These will need to be parameterized for your own use.
+
+* [Updating AGOL item metadata Jupyter notebook](https://github.com/seansweeney/NEARC-2017/blob/master/Updating%20AGOL%20item%20metadata.ipynb)
+* [Updating AGOL item metadata Python code](https://github.com/seansweeney/NEARC-2017/blob/master/Updating_AGOL_item_metadata.py)
+* [Accessing and managing users Jupyter notebook](https://github.com/seansweeney/NEARC-2017/blob/master/Accessing%20and%20managing%20users.ipynb)
+
 ## Useful ArcGIS Online REST API Item Parameters
 ![Item Parameters](https://raw.githubusercontent.com/seansweeney/NEARC-2017/master/useful_agol_rest_api_item_parameters.png)
