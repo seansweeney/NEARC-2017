@@ -9,6 +9,7 @@
 ## Links ##
 
 * [Slides](http://seansweeney.github.io/NEARC-2017/) - If you type the S key while viewing the slides, you should get a second window that includes my notes.
+* [Slides with notes](http://seansweeney.github.io/NEARC-2017/?showNotes=true) - If you type the S key while viewing the slides, you should get a second window that includes my notes.
 * [ArcGIS API for Python](https://developers.arcgis.com/python/)
 
 ## Useful ArcGIS Online REST API Item Parameters
