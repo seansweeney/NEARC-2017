@@ -19,6 +19,7 @@ The following files from the presentation demos are available in this repo.  Not
 * [Updating AGOL item metadata Jupyter notebook](https://github.com/seansweeney/NEARC-2017/blob/master/Updating%20AGOL%20item%20metadata.ipynb)
 * [Updating AGOL item metadata Python code](https://github.com/seansweeney/NEARC-2017/blob/master/Updating_AGOL_item_metadata.py)
 * [Accessing and managing users Jupyter notebook](https://github.com/seansweeney/NEARC-2017/blob/master/Accessing%20and%20managing%20users.ipynb)
+* [Leon Scott's UpdateHostedFeatureSvc_Pro](https://github.com/LeonGIS/UpdateHostedFeatureSvc_Pro)
 
 ## Useful ArcGIS Online REST API Item Parameters
 ![Item Parameters](https://raw.githubusercontent.com/seansweeney/NEARC-2017/master/useful_agol_rest_api_item_parameters.png)
