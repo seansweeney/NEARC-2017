@@ -12,6 +12,7 @@
 * [Slides with notes](http://seansweeney.github.io/NEARC-2017/?showNotes=true)
 * [ArcGIS API for Python](https://developers.arcgis.com/python/)
 * [Sample Python code for extracting metadata from SDE (including thumbnail)](https://gist.github.com/seansweeney/ae73ea91fa694c8a6fbad69f864f0a20)
+* My 2019 Fall NEARC presentation: [Migrating AGOL User Accounts Using the ArcGIS API for Python](https://github.com/seansweeney/NEARC-2019)
 
 ## Files ##
 The following files from the presentation demos are available in this repo.  Note that the *update* method inputs are hard coded in this demo for brevity and clarity.  These will need to be parameterized for your own use.
